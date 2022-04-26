@@ -1,12 +1,13 @@
 package App::dufolder ;  
-our $VERSION = '0.030' ; 
-our $DATE = '2022-04-26T11:36+09:00' ; 
+our $VERSION = '0.031' ; 
+our $DATE = '2022-04-26T13:02+09:00' ; 
 
 =encoding utf8
 
 =head1 NAME
 
-App::dufolder
+App::dufolder -- 指定ディレクトリのディスク使用量を算出する。見えるファイルによるサイズとと見えないファイルも含めたサイズの比も算出する。個数も算出する。Gitのコミットメッセージに使える。
+
 
 =head1 SYNOPSIS
 
